@@ -13,7 +13,7 @@ repository = "https://github.com/async-raft/async-raft"
 readme = "../README.md"
 
 [dependencies]
-anyhow = "1.0.32"
+anyhow = { version = "1", features = ["backtrace"] }
 async-trait = "0.1.36"
 bytes = "1.0"
 derive_more = { version="0.99.9", default-features=false, features=["from"] }
